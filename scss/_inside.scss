@@ -1,0 +1,48 @@
+.inside {
+  padding-top: 4rem;
+  &__header {
+    text-align: start;
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 4rem;
+    &::after {
+      content: "";
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      height: 10px;
+      width: 70%;
+      opacity: 30%;
+      background-color: var(--clr-yellow);
+    }
+  }
+  &__gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    &-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.6rem;
+      text-align: center;
+
+      h3 {
+        font-weight: var(--fw-black);
+        font-family: var(--f-rubik);
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        color: #333;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        max-width: 25rem;
+        line-height: 2;
+        color: var(--clr-grey);
+      }
+    }
+  }
+}

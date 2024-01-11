@@ -45,4 +45,14 @@
       }
     }
   }
+  &__btn {
+    margin: 3rem 0;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    font-family: var(--f-rubik);
+    font-weight: var(fw-bold);
+    letter-spacing: 0.3rem;
+    border-radius: 12px;
+    font-size: 1.8rem;
+  }
 }

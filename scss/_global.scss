@@ -7,12 +7,18 @@
     6.4rem
   );
   --fs-btn: clamp(2.4rem, 1.8028169014084507rem + 3.1924882629107985vw, 3.2rem);
+  --fs-features: clamp(
+    1.4rem,
+    1.1887323943661972rem + 0.9014084507042254vw,
+    2rem
+  );
   --clr-purple: #85586f;
   --clr-yellow: #bc9560;
   --clr-grey: #aaaaaa;
   --f-rubik: "Rubik", sans-serif;
   --f-rakkas: "Rakkas", serif;
   --f-roboto: "Roboto", sans-serif;
+  --f-poppins: "Poppins", sans-serif;
   --fw-black: 900;
   --fw-bold: 700;
   --fw-semibold: 500;
@@ -105,5 +111,5 @@ h6 {
   text-transform: uppercase;
   font-size: var(--fs-section);
   font-family: var(--f-rubik);
-  font-weight: var(--fw-black);
+  font-weight: var(--fw-bold);
 }
